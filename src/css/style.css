@@ -245,6 +245,7 @@ span{
       border: 1px solid #e7e5e4; 
       padding: 20px;
       border-radius: 2px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     }
 
    
