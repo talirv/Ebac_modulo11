@@ -183,6 +183,8 @@ span{
 
   @media screen and (min-width: 641px) and (max-width: 1023px) {
 
+   
+
     header, footer {
       flex-direction: column;
       text-align: center;
@@ -204,6 +206,12 @@ span{
   
     .produtos {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .produto {
+      border: 1px solid #e7e5e4; 
+      padding: 10px;
+
     }
   }
 
@@ -229,9 +237,15 @@ span{
    
     .produtos {
       grid-template-columns: 1fr;
+      padding: 20px;
     }
   
     .produto {
-      margin: 10px 0;
+      margin: 10px;
+      border: 1px solid #e7e5e4; 
+      padding: 20px;
+      border-radius: 2px;
     }
+
+   
   }
